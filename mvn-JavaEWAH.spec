@@ -4,11 +4,13 @@
 #
 Name     : mvn-JavaEWAH
 Version  : 0.3.2
-Release  : 1
+Release  : 2
 URL      : https://github.com/lemire/javaewah/archive/JavaEWAH-0.3.2.tar.gz
 Source0  : https://github.com/lemire/javaewah/archive/JavaEWAH-0.3.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar
 Source2  : https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.pom
+Source3  : https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.5.6/JavaEWAH-0.5.6.jar
+Source4  : https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.5.6/JavaEWAH-0.5.6.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,6 +43,12 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2
 cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6
+
 
 %files
 %defattr(-,root,root,-)
@@ -49,3 +57,5 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/googlecode/javaewah
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar
 /usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.pom
+/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6/JavaEWAH-0.5.6.jar
+/usr/share/java/.m2/repository/com/googlecode/javaewah/JavaEWAH/0.5.6/JavaEWAH-0.5.6.pom
