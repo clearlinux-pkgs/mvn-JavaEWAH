@@ -4,7 +4,7 @@
 #
 Name     : mvn-JavaEWAH
 Version  : 0.3.2
-Release  : 2
+Release  : 3
 URL      : https://github.com/lemire/javaewah/archive/JavaEWAH-0.3.2.tar.gz
 Source0  : https://github.com/lemire/javaewah/archive/JavaEWAH-0.3.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar
